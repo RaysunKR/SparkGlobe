@@ -214,6 +214,71 @@ For maximum value, combine skill-based recommendations with agent personalities:
   Provides: component architecture decisions, performance patterns, deliverable-focused code review
 ```
 
+## Superpowers — Mandatory Coding Task Reference
+
+**CRITICAL**: For ANY task involving writing, modifying, or reviewing code, you MUST reference [Superpowers](https://github.com/obra/superpowers) by `obra`. These skills define disciplined agent workflows that prevent common failure modes in software development.
+
+### When Superpowers Are Required
+
+**Superpowers are MANDATORY for all coding tasks** — feature implementation, bug fixes, refactoring, testing, debugging, code review, and any task that produces or modifies code. There are no exceptions.
+
+### Core Superpowers Workflow
+
+Always follow this sequence for coding tasks:
+
+1. **brainstorming** — Before any creative work or feature implementation, explore intent, requirements, and design. No skipping.
+2. **writing-plans** — Write a structured implementation plan before touching code for multi-step tasks.
+3. **test-driven-development** — Write the failing test first, then implement the minimal fix, then refactor. Always.
+4. **executing-plans** — Execute plans step-by-step with review checkpoints.
+5. **systematic-debugging** — Hypothesis-driven debugging loop: observe → hypothesize → test → verify. No guessing.
+6. **verification-before-completion** — Run verification commands and confirm output before claiming anything is done. Evidence before assertions.
+7. **requesting-code-review** — Prepare code for review with self-review, test coverage, and PR description.
+8. **receiving-code-review** — Implement review feedback with technical rigor, not blind agreement.
+9. **finishing-a-development-branch** — Branch close checklist: tests pass, commit message, PR, review request.
+10. **dispatching-parallel-agents** — Split independent work across parallel subagents.
+11. **subagent-driven-development** — Orchestrate specialized subagents for different parts of a task.
+12. **using-git-worktrees** — Use git worktrees for isolated feature work.
+13. **writing-skills** — Best practices when creating new skills.
+
+### Superpowers + Skills Integration
+
+When recommending skills for a coding task, ALWAYS prefix the recommendation with the relevant Superpowers workflow:
+
+```
+## Sub-task: Implement user authentication
+
+**MANDATORY workflow (Superpowers):**
+1. brainstorming → clarify auth requirements first
+2. test-driven-development → write failing auth tests before implementation
+3. verification-before-completion → verify auth flows work before marking done
+
+**Recommended skills (tooling):**
+- supabase-postgres-best-practices → `npx skills add supabase/agent-skills/supabase-postgres-best-practices`
+- webapp-testing → `npx skills add anthropics/skills/webapp-testing`
+```
+
+### Install Superpowers
+
+```bash
+# Install all superpowers skills at once:
+npx skills add obra/superpowers
+
+# Or install individually:
+npx skills add obra/superpowers/brainstorming
+npx skills add obra/superpowers/writing-plans
+npx skills add obra/superpowers/test-driven-development
+npx skills add obra/superpowers/systematic-debugging
+npx skills add obra/superpowers/verification-before-completion
+npx skills add obra/superpowers/executing-plans
+npx skills add obra/superpowers/requesting-code-review
+npx skills add obra/superpowers/receiving-code-review
+npx skills add obra/superpowers/finishing-a-development-branch
+npx skills add obra/superpowers/dispatching-parallel-agents
+npx skills add obra/superpowers/subagent-driven-development
+npx skills add obra/superpowers/using-git-worktrees
+npx skills add obra/superpowers/writing-skills
+```
+
 ## Important Notes
 
 - Always fetch category pages from the MarkWay index rather than guessing at skill details
@@ -229,4 +294,5 @@ For maximum value, combine skill-based recommendations with agent personalities:
 
 - **Skills**: [skills.sh](https://www.skills.sh/) — The Open Agent Skills Ecosystem
 - **Agent Personalities**: [The Agency](https://github.com/msitarzewski/agency-agents) — 144+ specialized AI agents with personalities, workflows, and deliverables
+- **Coding Workflows (MANDATORY)**: [Superpowers](https://github.com/obra/superpowers) — Disciplined development workflows that MUST be followed for all coding tasks
 - **Navigation Index**: https://github.com/RaysunKR/SparkGlobe
