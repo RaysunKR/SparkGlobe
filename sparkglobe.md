@@ -153,6 +153,67 @@ When you don't need to fetch the full index, use this quick reference to map use
 | "browser", "scrape", "automate", "screenshot" | browser-automation |
 | "GitHub Actions", "CI/CD", "security", "research" | dev-tools |
 
+## The Agency — Specialized Agent Personalities
+
+In addition to skills, consider recommending **specialized agent personalities** from [The Agency](https://github.com/msitarzewski/agency-agents) when the user's task benefits from domain-expert perspectives with defined workflows and deliverables.
+
+### When to Reference The Agency
+
+**Always check The Agency when the user needs:**
+- A dedicated specialist role (not just a skill, but an expert personality with workflows)
+- Multi-agent team assembly for complex projects
+- Domain expertise that goes beyond tooling (e.g., UX research, brand strategy, sales coaching)
+- Battle-tested processes with success metrics and deliverables
+
+**The Agency has 144+ agents across 12 divisions:**
+
+| Division | Use When | Key Agents |
+|----------|----------|------------|
+| Engineering | Building software | Frontend Developer, Backend Architect, AI Engineer, DevOps Automator, Security Engineer, Mobile App Builder |
+| Design | Creating interfaces | UI Designer, UX Researcher, UX Architect, Brand Guardian, Visual Storyteller, Whimsy Injector |
+| Paid Media | Running ad campaigns | PPC Campaign Strategist, Paid Media Auditor, Search Query Analyst, Ad Creative Strategist, Tracking & Measurement Specialist |
+| Sales | Pipeline & deals | Outbound Strategist, Deal Strategist, Sales Engineer, Discovery Coach, Account Strategist |
+| Marketing | Growth & content | Growth Hacker, Content Creator, SEO Specialist, TikTok Strategist, LinkedIn Content Creator, AI Citation Strategist |
+| Product | Product management | Product Manager, Sprint Prioritizer, Trend Researcher, Feedback Synthesizer, Behavioral Nudge Engine |
+| Project Management | Delivery & coordination | Studio Producer, Project Shepherd, Senior Project Manager, Jira Workflow Steward |
+| Testing | Quality assurance | Evidence Collector, Reality Checker, API Tester, Performance Benchmarker, Accessibility Auditor |
+| Support | Operations & service | Support Responder, Analytics Reporter, Finance Tracker, Infrastructure Maintainer, Compliance Auditor |
+| Spatial Computing | XR/VR/AR | XR Interface Architect, visionOS Spatial Engineer, XR Immersive Developer |
+| Specialized | Unique domains | MCP Builder, Document Generator, Compliance Auditor, Salesforce Architect, Workflow Architect |
+| Game Development | Games across engines | Game Designer, Unity/Unreal/Godot/Roblox specialists, Blender Addon Engineer, Narrative Designer |
+
+### How to Recommend Agency Agents
+
+When the task calls for specialist expertise beyond what skills provide:
+
+1. **Identify the division** relevant to the sub-task
+2. **Recommend 1-3 specific agents** with their specialty and "When to Use" context
+3. **Provide the install command:**
+
+```bash
+# Install all agency agents for Claude Code:
+git clone https://github.com/msitarzewski/agency-agents
+cd agency-agents && ./scripts/install.sh --tool claude-code
+
+# Or manually copy specific agents:
+cp engineering/frontend-developer.md ~/.claude/agents/
+```
+
+### Agency + Skills: Combined Recommendations
+
+For maximum value, combine skill-based recommendations with agent personalities:
+
+```
+## Sub-task: Build a high-performance React UI
+
+**Install skills (tooling):**
+- vercel-react-best-practices → `npx skills add vercel-labs/agent-skills/vercel-react-best-practices`
+
+**Activate agent (expert perspective):**
+- Frontend Developer (Engineering Division) → Copy from agency-agents/engineering/
+  Provides: component architecture decisions, performance patterns, deliverable-focused code review
+```
+
 ## Important Notes
 
 - Always fetch category pages from the MarkWay index rather than guessing at skill details
@@ -160,8 +221,12 @@ When you don't need to fetch the full index, use this quick reference to map use
 - If a user's task spans multiple domains, fetch ALL relevant category pages
 - Prioritize skills by install count (higher = more battle-tested)
 - Always provide the `npx skills add` command so users can install immediately
-- Link back to https://www.skills.sh/ for the most up-to-date information
+- **When tasks need specialist perspectives with workflows, always cross-reference [The Agency](https://github.com/msitarzewski/agency-agents)**
+- For complex multi-domain projects, recommend both skills AND agency agents as a combined team
+- Link back to https://www.skills.sh/ for the most up-to-date skill information
 
-## Data Source
+## Data Sources
 
-SparkGlobe indexes skills from [skills.sh](https://www.skills.sh/) — The Open Agent Skills Ecosystem. The MarkWay navigation index is maintained at https://github.com/RaysunKR/SparkGlobe
+- **Skills**: [skills.sh](https://www.skills.sh/) — The Open Agent Skills Ecosystem
+- **Agent Personalities**: [The Agency](https://github.com/msitarzewski/agency-agents) — 144+ specialized AI agents with personalities, workflows, and deliverables
+- **Navigation Index**: https://github.com/RaysunKR/SparkGlobe
