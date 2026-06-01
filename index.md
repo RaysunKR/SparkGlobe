@@ -45,4 +45,4 @@ SparkGlobe is a MarkWay-based AI Agent skill navigation system. It indexes the f
 
 | Address | Description |
 |---------|-------------|
-| ./sparkglobe.md | SparkGlobe skill file: installable by agents for automatic task decomposition and skill recommendation |
+| ./skills/sparkglobe/SKILL.md | SparkGlobe skill file: installable by agents for automatic task decomposition and skill recommendation |

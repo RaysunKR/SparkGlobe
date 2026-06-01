@@ -26,7 +26,10 @@ SparkGlobe/
 ├── protocol.md                        # MarkWay 协议（简体中文）
 ├── protocol_en.md                     # MarkWay 协议（英文）
 ├── protocol_zh_TW.md                  # MarkWay 协议（繁体中文）
-├── sparkglobe.md                      # SparkGlobe 技能文件（可安装到 Agent）
+├── skills/                            # 标准 skills.sh 布局
+│   └── sparkglobe/
+│       └── SKILL.md                   # SparkGlobe 技能文件（可安装到 Agent）
+├── skills.sh.json                     # skills.sh 仓库配置
 └── skillsIndex/                       # 技能分类页面
     ├── index.md                       # 分类总览 + 场景推荐
     ├── frontend.md                    # 前端 & React（6 个技能）
@@ -120,7 +123,10 @@ SparkGlobe 遵循 [MarkWay 协议](protocol.md) — 一个为 AI Agent 设计的
 
 ```bash
 # Claude Code
-cp sparkglobe.md ~/.claude/skills/
+cp skills/sparkglobe/SKILL.md ~/.claude/skills/
+
+# 或通过 skills.sh CLI 安装：
+npx skills add RaysunKR/SparkGlobe
 
 # 在 Agent 会话中，当你请求查找技能时 SparkGlobe 会自动激活
 ```

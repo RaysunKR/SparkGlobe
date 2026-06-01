@@ -1,0 +1,11 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "SparkGlobe",
+      "description": "AI Agent skill navigator — decompose tasks and auto-discover the best skills, workflows, and specialist agents.",
+      "skills": ["sparkglobe"]
+    }
+  ]
+}

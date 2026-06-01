@@ -26,7 +26,10 @@ SparkGlobe/
 ├── protocol.md                        # MarkWay protocol (Simplified Chinese)
 ├── protocol_en.md                     # MarkWay protocol (English)
 ├── protocol_zh_TW.md                  # MarkWay protocol (Traditional Chinese)
-├── sparkglobe.md                      # SparkGlobe skill file (installable by agents)
+├── skills/                            # Standard skills.sh layout
+│   └── sparkglobe/
+│       └── SKILL.md                   # SparkGlobe skill (installable by agents)
+├── skills.sh.json                     # skills.sh repo configuration
 └── skillsIndex/                       # Skill category pages
     ├── index.md                       # Category overview + scenario guide
     ├── frontend.md                    # Frontend & React (6 skills)
@@ -120,7 +123,10 @@ Copy the skill file to your agent's skills directory:
 
 ```bash
 # For Claude Code
-cp sparkglobe.md ~/.claude/skills/
+cp skills/sparkglobe/SKILL.md ~/.claude/skills/
+
+# Or install via skills.sh CLI:
+npx skills add RaysunKR/SparkGlobe
 
 # Then in your agent session, SparkGlobe will activate when you ask to find skills
 ```
