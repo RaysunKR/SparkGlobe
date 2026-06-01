@@ -136,8 +136,8 @@ npx skills add RaysunKR/SparkGlobe
 Agent 可以通过 raw GitHub URL 直接拉取任何页面：
 
 ```
-https://raw.githubusercontent.com/RaysunKR/SparkGlobe/main/index.md
-https://raw.githubusercontent.com/RaysunKR/SparkGlobe/main/skillsIndex/{category}.md
+https://raw.githubusercontent.com/RaysunKR/SparkGlobe/master/index.md
+https://raw.githubusercontent.com/RaysunKR/SparkGlobe/master/skillsIndex/{category}.md
 ```
 
 ## 许可证

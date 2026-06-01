@@ -24,7 +24,7 @@ SparkGlobe uses the **MarkWay protocol** to navigate a curated index of 200+ age
 Fetch the root index to discover all available categories:
 
 ```
-GET https://raw.githubusercontent.com/RaysunKR/SparkGlobe/main/index.md
+GET https://raw.githubusercontent.com/RaysunKR/SparkGlobe/master/index.md
 ```
 
 This returns a MarkWay-compliant Markdown file with a table of all skill categories and their addresses.
@@ -55,7 +55,7 @@ Analyze the user's request and break it down into distinct sub-tasks. For each s
 For each relevant category, fetch the category page from the MarkWay index:
 
 ```
-GET https://raw.githubusercontent.com/RaysunKR/SparkGlobe/main/skillsIndex/{category}.md
+GET https://raw.githubusercontent.com/RaysunKR/SparkGlobe/master/skillsIndex/{category}.md
 ```
 
 Available categories:

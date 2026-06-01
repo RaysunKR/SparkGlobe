@@ -1,6 +1,6 @@
-https://raw.githubusercontent.com/RaysunKR/SparkGlobe/main
+https://raw.githubusercontent.com/RaysunKR/SparkGlobe/master
 
-> This site follows the MarkWay Protocol: https://raw.githubusercontent.com/RaysunKR/SparkGlobe/main/protocol_en.md
+> This site follows the MarkWay Protocol: https://raw.githubusercontent.com/RaysunKR/SparkGlobe/master/protocol_en.md
 
 # Mobile Skills
 
