@@ -2,31 +2,31 @@ https://raw.githubusercontent.com/RaysunKR/SparkGlobe/main
 
 > This site follows the MarkWay Protocol: https://raw.githubusercontent.com/RaysunKR/SparkGlobe/main/protocol_en.md
 
-# 测试技能
+# Testing Skills
 
-TDD 开发循环、Playwright 自动化、Web 应用测试与验证流程相关技能。
+TDD development loops, Playwright automation, web application testing, and verification workflows.
 
-## 推荐场景
+## Best For
 
-- 实施 TDD 开发流程
-- Web 应用端到端测试
-- Playwright 自动化测试
-- 代码变更验证
+- Implementing TDD development workflows
+- End-to-end web application testing
+- Playwright automation testing
+- Code change verification passes
 
-## 技能列表
+## Skills
 
-| 技能名称 | 安装量 | 安装命令 | 说明 |
-|---------|--------|---------|------|
-| test-driven-development | 107.2K | `npx skills add obra/superpowers/test-driven-development` | TDD 循环：先写失败测试、实现最小变更、验证、重构 |
-| webapp-testing | 85.2K | `npx skills add anthropics/skills/webapp-testing` | Web 应用测试模式：单元、集成和端到端方法 |
-| verification-before-completion | 90.8K | `npx skills add obra/superpowers/verification-before-completion` | 在标记任务完成前强制进行验证 |
-| playwright-best-practices | — | `npx skills add currents-dev/playwright-best-practices-skill/playwright-best-practices` | Playwright 模式：选择器、fixtures、并行与 CI 集成 |
-| playwright-cli | — | `npx skills add microsoft/playwright-cli/playwright-cli` | 通过 Playwright CLI 控制实时浏览器：录制、检查和回放交互 |
+| Skill | Installs | Install Command | Description |
+|-------|----------|----------------|-------------|
+| test-driven-development | 107.2K | `npx skills add obra/superpowers/test-driven-development` | TDD loop: write the failing test first, implement the minimal change, verify, then refactor |
+| webapp-testing | 85.2K | `npx skills add anthropics/skills/webapp-testing` | Web app testing patterns covering unit, integration, and end-to-end approaches |
+| verification-before-completion | 90.8K | `npx skills add obra/superpowers/verification-before-completion` | Force a verification pass before any task is marked done |
+| playwright-best-practices | — | `npx skills add currents-dev/playwright-best-practices-skill/playwright-best-practices` | Playwright patterns: selectors, fixtures, parallelism, and CI integration |
+| playwright-cli | — | `npx skills add microsoft/playwright-cli/playwright-cli` | Control a live browser via the Playwright CLI to record, inspect, and replay interactions |
 
-## 相关分类
+## Related
 
-| 地址 | 说明 |
-|------|------|
-| ./agent-workflows.md | Agent 工作流技能（含更多开发流程工具） |
-| ./frontend.md | 前端 & React 技能 |
-| ./code-quality.md | 代码质量 & 架构技能 |
+| Address | Description |
+|---------|-------------|
+| ./agent-workflows.md | Agent workflow skills (more development process tools) |
+| ./frontend.md | Frontend & React skills |
+| ./code-quality.md | Code quality & architecture skills |

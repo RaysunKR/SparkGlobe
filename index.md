@@ -4,45 +4,45 @@ https://raw.githubusercontent.com/RaysunKR/SparkGlobe/main
 
 # SparkGlobe — Agent Skills Navigator
 
-SparkGlobe 是一个基于 MarkWay 协议的 AI Agent 技能导航系统。它索引了 [skills.sh](https://www.skills.sh/) 上的全量 Agent 技能，帮助 Agent 根据用户任务自动发现和推荐合适的技能。
+SparkGlobe is a MarkWay-based AI Agent skill navigation system. It indexes the full catalog of agent skills from [skills.sh](https://www.skills.sh/), helping agents automatically discover and recommend the right skills for any user task.
 
-**数据来源**: [skills.sh](https://www.skills.sh/) — The Open Agent Skills Ecosystem
+**Data Source**: [skills.sh](https://www.skills.sh/) — The Open Agent Skills Ecosystem
 
-**更新时间**: 2026-06-01
+**Last Updated**: 2026-06-01
 
-**技能总数**: 200+ | **分类数**: 15
+**Total Skills**: 200+ | **Categories**: 15
 
-## 技能分类索引
+## Skill Category Index
 
-| 地址 | 说明 |
-|------|------|
-| ./skills/index.md | 技能分类总览：查看所有技能分类及统计 |
-| ./skills/frontend.md | 前端 & React：React 性能优化、组件模式、Tailwind、shadcn/ui |
-| ./skills/nextjs.md | Next.js：App Router、Server Components、缓存、Vercel 部署 |
-| ./skills/design.md | 设计 & UI：前端设计、视觉打磨、设计系统、交互动效 |
-| ./skills/mobile.md | 移动端：React Native、Expo、原生 UI、数据获取 |
-| ./skills/agent-workflows.md | Agent 工作流：任务分解、调试、TDD、子 Agent 调度、自动化循环 |
-| ./skills/databases.md | 数据库：Postgres、Supabase、Firebase、Convex、Neon、Drizzle ORM |
-| ./skills/testing.md | 测试：TDD 循环、Playwright、Web 应用测试、验证流程 |
-| ./skills/marketing.md | 营销：SEO、文案、CRO、增长策略、邮件营销、付费广告 |
-| ./skills/ai-media.md | AI 媒体生成：AI 图像、视频、音乐、换脸、图像修复、视频扩展 |
-| ./skills/cloud-infra.md | 云 & 基础设施：Azure 全栈、Firebase、Kubernetes、云迁移 |
-| ./skills/document-processing.md | 文档处理：PPTX、PDF、DOCX、XLSX 文件创建与解析 |
-| ./skills/lark.md | 飞书/Lark 生态：文档、多维表格、消息、审批、OKR、日历 |
-| ./skills/code-quality.md | 代码质量 & 架构：代码审查、架构改进、TDD、诊断、PRD 生成 |
-| ./skills/browser-automation.md | 浏览器自动化：网页操作、表单填写、截图、数据提取 |
-| ./skills/dev-tools.md | 开发者工具：GitHub Actions、Linux 云安全、用户脚本、AI 论文复现 |
+| Address | Description |
+|---------|-------------|
+| ./skills/index.md | Skills category overview: browse all categories and statistics |
+| ./skills/frontend.md | Frontend & React: React performance, component patterns, Tailwind, shadcn/ui |
+| ./skills/nextjs.md | Next.js: App Router, Server Components, caching, Vercel deployment |
+| ./skills/design.md | Design & UI: frontend design, visual polish, design systems, interaction & animation |
+| ./skills/mobile.md | Mobile: React Native, Expo, native UI, data fetching |
+| ./skills/agent-workflows.md | Agent Workflows: task decomposition, debugging, TDD, sub-agent dispatch, autonomous loops |
+| ./skills/databases.md | Databases: Postgres, Supabase, Firebase, Convex, Neon, Drizzle ORM |
+| ./skills/testing.md | Testing: TDD loops, Playwright, web app testing, verification passes |
+| ./skills/marketing.md | Marketing: SEO, copywriting, CRO, growth strategy, email, paid ads |
+| ./skills/ai-media.md | AI Media Generation: AI image, video, music, face swap, inpainting, video extension |
+| ./skills/cloud-infra.md | Cloud & Infrastructure: Azure full-stack, Firebase, Kubernetes, cloud migration |
+| ./skills/document-processing.md | Document Processing: PPTX, PDF, DOCX, XLSX file creation and parsing |
+| ./skills/lark.md | Lark/Feishu Ecosystem: docs, spreadsheets, messaging, approvals, OKR, calendar |
+| ./skills/code-quality.md | Code Quality & Architecture: code review, architecture improvement, TDD, diagnostics, PRD generation |
+| ./skills/browser-automation.md | Browser Automation: web interaction, form filling, screenshots, data extraction |
+| ./skills/dev-tools.md | Developer Tools: GitHub Actions, Linux cloud security, userscripts, AI paper reproduction |
 
-## 协议文档
+## Protocol Documentation
 
-| 地址 | 说明 |
-|------|------|
-| ./protocol.md | MarkWay 协议规范（简体中文） |
+| Address | Description |
+|---------|-------------|
+| ./protocol.md | MarkWay Protocol Specification (Simplified Chinese) |
 | ./protocol_en.md | MarkWay Protocol Specification (English) |
-| ./protocol_zh_TW.md | MarkWay 協議規範（繁體中文） |
+| ./protocol_zh_TW.md | MarkWay Protocol Specification (Traditional Chinese) |
 
 ## SparkGlobe Skill
 
-| 地址 | 说明 |
-|------|------|
-| ./sparkglobe.md | SparkGlobe 技能文件：可安装到 Agent 中，自动分解任务并推荐技能 |
+| Address | Description |
+|---------|-------------|
+| ./sparkglobe.md | SparkGlobe skill file: installable by agents for automatic task decomposition and skill recommendation |
