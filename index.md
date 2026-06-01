@@ -16,22 +16,22 @@ SparkGlobe is a MarkWay-based AI Agent skill navigation system. It indexes the f
 
 | Address | Description |
 |---------|-------------|
-| ./skills/index.md | Skills category overview: browse all categories and statistics |
-| ./skills/frontend.md | Frontend & React: React performance, component patterns, Tailwind, shadcn/ui |
-| ./skills/nextjs.md | Next.js: App Router, Server Components, caching, Vercel deployment |
-| ./skills/design.md | Design & UI: frontend design, visual polish, design systems, interaction & animation |
-| ./skills/mobile.md | Mobile: React Native, Expo, native UI, data fetching |
-| ./skills/agent-workflows.md | Agent Workflows: task decomposition, debugging, TDD, sub-agent dispatch, autonomous loops |
-| ./skills/databases.md | Databases: Postgres, Supabase, Firebase, Convex, Neon, Drizzle ORM |
-| ./skills/testing.md | Testing: TDD loops, Playwright, web app testing, verification passes |
-| ./skills/marketing.md | Marketing: SEO, copywriting, CRO, growth strategy, email, paid ads |
-| ./skills/ai-media.md | AI Media Generation: AI image, video, music, face swap, inpainting, video extension |
-| ./skills/cloud-infra.md | Cloud & Infrastructure: Azure full-stack, Firebase, Kubernetes, cloud migration |
-| ./skills/document-processing.md | Document Processing: PPTX, PDF, DOCX, XLSX file creation and parsing |
-| ./skills/lark.md | Lark/Feishu Ecosystem: docs, spreadsheets, messaging, approvals, OKR, calendar |
-| ./skills/code-quality.md | Code Quality & Architecture: code review, architecture improvement, TDD, diagnostics, PRD generation |
-| ./skills/browser-automation.md | Browser Automation: web interaction, form filling, screenshots, data extraction |
-| ./skills/dev-tools.md | Developer Tools: GitHub Actions, Linux cloud security, userscripts, AI paper reproduction |
+| ./skillsIndex/index.md | Skills category overview: browse all categories and statistics |
+| ./skillsIndex/frontend.md | Frontend & React: React performance, component patterns, Tailwind, shadcn/ui |
+| ./skillsIndex/nextjs.md | Next.js: App Router, Server Components, caching, Vercel deployment |
+| ./skillsIndex/design.md | Design & UI: frontend design, visual polish, design systems, interaction & animation |
+| ./skillsIndex/mobile.md | Mobile: React Native, Expo, native UI, data fetching |
+| ./skillsIndex/agent-workflows.md | Agent Workflows: task decomposition, debugging, TDD, sub-agent dispatch, autonomous loops |
+| ./skillsIndex/databases.md | Databases: Postgres, Supabase, Firebase, Convex, Neon, Drizzle ORM |
+| ./skillsIndex/testing.md | Testing: TDD loops, Playwright, web app testing, verification passes |
+| ./skillsIndex/marketing.md | Marketing: SEO, copywriting, CRO, growth strategy, email, paid ads |
+| ./skillsIndex/ai-media.md | AI Media Generation: AI image, video, music, face swap, inpainting, video extension |
+| ./skillsIndex/cloud-infra.md | Cloud & Infrastructure: Azure full-stack, Firebase, Kubernetes, cloud migration |
+| ./skillsIndex/document-processing.md | Document Processing: PPTX, PDF, DOCX, XLSX file creation and parsing |
+| ./skillsIndex/lark.md | Lark/Feishu Ecosystem: docs, spreadsheets, messaging, approvals, OKR, calendar |
+| ./skillsIndex/code-quality.md | Code Quality & Architecture: code review, architecture improvement, TDD, diagnostics, PRD generation |
+| ./skillsIndex/browser-automation.md | Browser Automation: web interaction, form filling, screenshots, data extraction |
+| ./skillsIndex/dev-tools.md | Developer Tools: GitHub Actions, Linux cloud security, userscripts, AI paper reproduction |
 
 ## Protocol Documentation
 

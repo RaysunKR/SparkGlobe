@@ -55,7 +55,7 @@ Analyze the user's request and break it down into distinct sub-tasks. For each s
 For each relevant category, fetch the category page from the MarkWay index:
 
 ```
-GET https://raw.githubusercontent.com/RaysunKR/SparkGlobe/main/skills/{category}.md
+GET https://raw.githubusercontent.com/RaysunKR/SparkGlobe/main/skillsIndex/{category}.md
 ```
 
 Available categories:
